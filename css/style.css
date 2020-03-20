@@ -51,7 +51,7 @@ h5 {
   padding: 10% 5%;
 }
 
-.title-content img{
+.title-content img {
   display: none;
 }
 
@@ -68,8 +68,6 @@ h5 {
 .download-button {
   margin: 5% 3% 0px 0px;
 }
-
-
 
 .title-content p {
   color: #8f8f8f;
@@ -88,6 +86,5 @@ h5 {
 .title-content-image {
   height: 100%;
 }
-
 
 /* media querie */
