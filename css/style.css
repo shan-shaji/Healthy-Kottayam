@@ -88,3 +88,19 @@ h5 {
 }
 
 /* media querie */
+@media (max-width: 991px){
+  .title-content {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    
+
+  }
+
+  .title-content-image{
+    position: absolute;
+    left: 200px;
+    height: 400px;
+  }
+}
+
