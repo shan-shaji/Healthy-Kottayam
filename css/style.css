@@ -50,6 +50,10 @@ h5 {
   padding: 10% 5%;
 }
 
+.title-content img{
+  display: none;
+}
+
 #title {
   text-align: left;
   padding: auto 5%;
@@ -81,4 +85,21 @@ h5 {
 
 .title-content-image {
   height: 100%;
+}
+
+@media (max-width: 991px){
+  .title-content {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    
+  }
+
+  .title-content-image{
+    position: relative;
+  }
+
+
+
+ 
 }
