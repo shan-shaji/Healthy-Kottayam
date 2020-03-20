@@ -73,6 +73,7 @@ h5 {
 .title-content p {
   color: #8f8f8f;
   padding-right: 20px;
+  line-height: 2;
 }
 
 /* Tittle image */
@@ -87,19 +88,5 @@ h5 {
   height: 100%;
 }
 
-@media (max-width: 991px){
-  .title-content {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    
-  }
 
-  .title-content-image{
-    position: relative;
-  }
-
-
-
- 
-}
+/* media querie */
