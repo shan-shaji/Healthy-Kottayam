@@ -21,7 +21,7 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/style.css" />
 
-  <!-- bootsrap scripts -->
+  <!-- bootstrap scripts -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
@@ -38,13 +38,13 @@
 <body>
   <section id="title">
     <div class="container-fluid">
+
       <!-- navbar -->
 
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand">
           <img src="images/Logo1.png" class="d-inline-block align-top nav-logo" alt="" />
         </a>
-
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
           aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -52,12 +52,13 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="#about-us">About Us</a>
             </li>
             <li class="nav-item">
               <form class="form-inline">
-                <button class="btn btn-outline-primary" type="button">Login</button>
-                
+                <button class="btn btn-outline-primary" type="button">
+                  Login
+                </button>
               </form>
             </li>
           </ul>
@@ -68,13 +69,13 @@
     <!-- Tittle -->
 
     <div class="row main-row">
-      <div class="col-lg-6 title-content">
-        <div>
+      <div class="col-lg-6 ">
+        <div class="title-content">
           <h1 class="main-tittle">Take Control of your Health.</h1>
           <p>
-            <strong>Healthy Kottayam</strong> Website and Mobile App initiated by the
-            District Administration Kottayam is to help people to fight
-            against the <strong>COVID-19(Corona Virus)</strong>. Health
+            <strong>Healthy Kottayam</strong> Website and Mobile App initiated
+            by the District Administration Kottayam is to help people to fight
+            against the <strong>COVID-19 (Corona Virus)</strong>. Health
             Department officials of Kottayam district will make use of the
             Healthy Kottayam Mobile App to report the daily status of affected
             as well as quarantined people in all panchayats and Municipalities
@@ -83,11 +84,10 @@
             district head for its users.
           </p>
           <button class="btn btn-lg btn-outline-dark  download-button">
-            <i class="fab fa-google-play"></i> Download
+            <i class="fab fa-google-play"></i> Download App
           </button>
         </div>
       </div>
-
       <div class="col-lg-6 main-content-image">
         <div class="title-content-image">
           <img src="images/undraw_medicine_b1ol (2).svg" alt="" class="title-image" />
@@ -99,11 +99,28 @@
   <!-- About Us -->
 
   <section id="about-us">
-
+    <div class="container-fluid">
+      <div class="row about-us-row">
+        <div class="col-lg-6 about-us-content-image">
+          <div class="card text-left">
+            <img src="images/undraw_work_together_h63l.svg" alt="" class="card-img-top"/>
+          </div>     
+        </div>
+        <div class="col-lg-6 about-us-content">
+          <div class="card text-left">
+            <div class="card-body">
+              <h1 class="card-title main-tittle">
+                About Us
+              </h1>
+              <p class="card-text ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque expedita accusantium
+                perferendis. Dignissimos eaque eius illo fuga? Unde et, explicabo totam deleniti nesciunt cupiditate non
+                itaque blanditiis nostrum reprehenderit nulla?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-
-
-
 </body>
 
 </html>

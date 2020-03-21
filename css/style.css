@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  padding: 1% 2%;
 }
 
 /* Navigation bar */
@@ -62,7 +63,7 @@ h5 {
 }
 
 .main-row {
-  margin: 1% 2%;
+  padding: 1% 2%;
 }
 
 .download-button {
@@ -88,21 +89,47 @@ h5 {
   height: 100%;
 }
 
-/* media querie */
+/* about us */
 
-@media (max-width: 991px){
-  .title-content {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-
-
-  }
-
-  .title-content-image{
-    position: absolute;
-    left: 200px;
-    height: 180px;
-  }
+#about-us {
+  padding: 5% 5%;
 }
 
+.about-us-content-image img {
+  width: 70%;
+}
+
+.card {
+  border: none;
+}
+.card-text {
+  line-height: 2;
+  color: #8f8f8f;
+  text-align: justify;
+}
+
+/* media querie */
+
+@media (max-width: 991px) {
+  .title-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .main-row {
+    position: relative;
+  }
+
+  .main-content-image {
+    position: absolute;
+  }
+
+  .title-content-image {
+    position: relative;
+    left: 190px;
+    height: 268px;
+    bottom: 51px;
+    width: 45%;
+  }
+}
