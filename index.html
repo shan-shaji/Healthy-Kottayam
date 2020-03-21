@@ -13,6 +13,8 @@
   <meta name="theme-color" content="#ffffff" />
   <title>Healthy Kottayam</title>
 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <!-- fontawesome -->
   <script src="https://kit.fontawesome.com/b83377456d.js" crossorigin="anonymous"></script>
 
@@ -38,7 +40,6 @@
 <body>
   <section id="title">
     <div class="container-fluid">
-
       <!-- navbar -->
 
       <nav class="navbar navbar-expand-lg navbar-light">
@@ -52,14 +53,12 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#about-us">About Us</a>
+              <a class="nav-link" id="myBtn">About Us</a>
             </li>
             <li class="nav-item">
-              <form class="form-inline">
-                <button class="btn btn-outline-primary" type="button">
-                  Login
-                </button>
-              </form>
+              <button class="btn btn-outline-primary" type="button">
+                Login
+              </button>
             </li>
           </ul>
         </div>
@@ -98,29 +97,69 @@
 
   <!-- About Us -->
 
-  <section id="about-us">
-    <div class="container-fluid">
-      <div class="row about-us-row">
-        <div class="col-lg-6 about-us-content-image">
-          <div class="card text-left">
-            <img src="images/undraw_work_together_h63l.svg" alt="" class="card-img-top"/>
-          </div>     
-        </div>
-        <div class="col-lg-6 about-us-content">
-          <div class="card text-left">
-            <div class="card-body">
-              <h1 class="card-title main-tittle">
-                About Us
-              </h1>
-              <p class="card-text ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque expedita accusantium
-                perferendis. Dignissimos eaque eius illo fuga? Unde et, explicabo totam deleniti nesciunt cupiditate non
-                itaque blanditiis nostrum reprehenderit nulla?</p>
-            </div>
+  <section>
+    <div id="myModal" class="modal">
+
+
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="content">
+
+          <div class="card">
+            <p class="title">Prof. Manoj T Joy</p>
+            <p class="text">Project Manager</p>
           </div>
+
+          <div class="card">
+            <p class="title">Jis Joe Mathew</p>
+            <p class="text">Architect & Core Developer</p>
+          </div>
+
+          <div class="card">
+            <p class="title">Joyal Joseph</p>
+            <p class="text">Developer</p>
+          </div>
+
+          <div class="card">
+            <p class="title">Justin Moncy</p>
+            <p class="text">DB Designer</p>
+          </div>
+          <!-- end card -->
+        </div>
+
+
+
+        <div class="content">
+
+          <div class="card">
+            <p class="title">Jithin K Jose</p>
+            <p class="text">Chief UI Designer</p>
+          </div>
+
+          <div class="card">
+            <p class="title">Shana james</p>
+            <p class="text">Front End Developer</p>
+          </div>
+
+          <div class="card">
+            <p class="title">Joel John kandathil</p>
+            <p class="text">UI Designer</p>
+          </div>
+
+          <div class="card">
+            <p class="title">Shan Shaji</p>
+            <p class="text">Web Developer</p>
+          </div>
+          <!-- end card -->
         </div>
       </div>
     </div>
+
+    </div>
   </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
