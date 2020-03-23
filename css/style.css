@@ -19,7 +19,7 @@ body {
   font-family: "ubuntu";
   font-size: 2.5rem;
   font-weight: bolder;
-  color: #3b4351;
+  color: #8f8f8f;
 }
 
 .nav-item {
@@ -106,51 +106,9 @@ a {
   cursor: pointer;
 }
 
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-  transition: opacity 500ms;
-}
-
-/* Modal Content */
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 100%;
-  transition: all 2s ease-in-out;
-}
-
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 .content {
   max-width: 100%;
   width: 100%;
-  /* padding: 0 6%; */
-  /* padding-top: 250px; */
   margin: 0 auto;
   display: block;
   justify-content: center;
@@ -162,7 +120,6 @@ a {
   max-width: 700px;
   min-width: 200px;
   height: 100%;
-  /* background-image: linear-gradient(to left, rgba(2,160,199,1), rgba(19,0,125,1)); */
   background-color: #fff;
   margin: 15px;
   border-radius: 5px;
@@ -182,7 +139,7 @@ a {
   margin: 0;
   text-align: center;
   margin-top: 10px;
-  color: black;
+  color: #4e4e4e;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -193,7 +150,7 @@ a {
   font-size: 13px;
   text-align: center;
   margin-top: 5px;
-  color: black;
+  color: #818181;
   font-weight: 200;
   letter-spacing: 2px;
   opacity: 0;
@@ -213,26 +170,23 @@ a {
   padding: 2%;
 }
 
-.subtitle-text{
+.subtitle-text {
   padding-top: 6%;
 }
 
 
 
-/* media querie */
-
-
 /* credits */
 
-#credits{
+#credits {
   padding: 3% 0;
 }
 
-.credits-row{
+.credits-row {
   padding: 3%;
 }
 
-.credits-vector{
+.credits-vector {
   padding-top: 6%;
 }
 /* footer */
@@ -246,18 +200,17 @@ a {
 .icons-footer i {
   margin: 20px 10px;
 }
+
+
+/* media querie */
+
 @media (max-width: 991px) {
   .navbar-toggler {
     position: relative;
     z-index: 1;
   }
   .title-content {
-    position: /* .subtitle-text h1 {
-      font-size: 2rem;
-      font-weight: 700;
-      line-height: 1.5;
-    } */
-    /* pop up */relative;
+    position: relative;
   }
 
   .main-content-image {
@@ -272,9 +225,8 @@ a {
     width: 45%;
   }
 
-.credits-vector{
-  padding-top: 6%;
-  display: none;
+  .credits-vector {
+    padding-top: 6%;
+    display: none;
+  }
 }
-}
-
