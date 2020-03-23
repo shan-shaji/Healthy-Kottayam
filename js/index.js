@@ -1,7 +1,5 @@
 var modal = document.getElementById("myModal");
 
-
-
 $("#myBtn").click(function() {
   modal.style.display = "block";
 });
