@@ -92,7 +92,7 @@ h5 {
 /* about us */
 
 #about-us {
-  padding: 5% 0;
+  padding: 6% 0;
 }
 .about-us-icon {
   width: 50%;
@@ -174,8 +174,6 @@ a {
   padding-top: 6%;
 }
 
-
-
 /* credits */
 
 #credits {
@@ -200,7 +198,6 @@ a {
 .icons-footer i {
   margin: 20px 10px;
 }
-
 
 /* media querie */
 
