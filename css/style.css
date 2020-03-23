@@ -99,7 +99,7 @@ h5 {
 }
 
 .about-us-row {
-  padding: 5%;
+  padding: 3%;
 }
 
 a {
@@ -214,11 +214,11 @@ a {
 }
 
 .subtitle-text{
-  padding-top: 80px;
+  padding-top: 10%;
 }
 
 .subtitle-text h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1.5;
 }
