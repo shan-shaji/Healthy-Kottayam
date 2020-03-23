@@ -92,7 +92,7 @@ h5 {
 /* about us */
 
 #about-us {
-  padding: 8% 0;
+  padding: 5% 0;
 }
 .about-us-icon {
   width: 50%;
@@ -161,7 +161,7 @@ a {
   width: 100%;
   max-width: 700px;
   min-width: 200px;
-  height: 70px;
+  height: 100%;
   /* background-image: linear-gradient(to left, rgba(2,160,199,1), rgba(19,0,125,1)); */
   background-color: #fff;
   margin: 15px;
@@ -201,10 +201,10 @@ a {
   transition: all 0.3s ease;
 }
 .card:hover {
-  height: 90px;
+  height: 100%;
 }
 .card:hover .text {
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   opacity: 1;
   max-height: 40px;
 }
@@ -214,31 +214,50 @@ a {
 }
 
 .subtitle-text{
-  padding-top: 10%;
+  padding-top: 6%;
 }
 
-.subtitle-text h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1.5;
-}
-/* pop up */
+
 
 /* media querie */
 
+
+/* credits */
+
+#credits{
+  padding: 3% 0;
+}
+
+.credits-row{
+  padding: 3%;
+}
+
+.credits-vector{
+  padding-top: 6%;
+}
+/* footer */
+
+#footer {
+  background-color: rgb(255, 255, 255);
+
+  padding: 5% 15%;
+}
+
+.icons-footer i {
+  margin: 20px 10px;
+}
 @media (max-width: 991px) {
   .navbar-toggler {
     position: relative;
     z-index: 1;
   }
   .title-content {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-  }
-
-  .main-row {
-    position: relative;
+    position: /* .subtitle-text h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.5;
+    } */
+    /* pop up */relative;
   }
 
   .main-content-image {
@@ -252,4 +271,10 @@ a {
     bottom: 51px;
     width: 45%;
   }
+
+.credits-vector{
+  padding-top: 6%;
+  display: none;
 }
+}
+
