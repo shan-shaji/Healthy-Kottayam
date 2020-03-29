@@ -166,7 +166,6 @@ a {
   flex-direction: coloumn;
   cursor: pointer;
   transition: all 0.3s ease;
-  border: 2px solid #323232;
   padding: 10px;
 }
 .card .title {
