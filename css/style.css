@@ -11,7 +11,8 @@ body {
 }
 
 .nav-logo {
-  width: 4rem;
+  width: 10rem;
+  margin-top: 10px;
 }
 
 .navbar-brand {
