@@ -166,7 +166,7 @@ a {
   flex-direction: coloumn;
   cursor: pointer;
   transition: all 0.3s ease;
-  padding: 10px;
+
 }
 .card .title {
   width: 100%;
